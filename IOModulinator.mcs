@@ -1,0 +1,84 @@
+[Header]
+MagicCookie={0b13fe8c-dfe0-40eb-8900-6712719559a7}
+Version=1.0
+[File000]
+Location=C:\Users\Wouter\workspace\IOModulinator\obj\main.o
+Folder=Intermediary
+DeviceName=PIC24F16KA302
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)|bin/||$(TMPDIR)|obj/||$(AINDIR)||$(INCDIR)|include;src;..\libbusprot\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|src\main.c|src\device.c|src\connectivity.c|src\timers.c||<obj>||<lib>|C:\Users\Wouter\workspace\libbusprot\bin\libbusprot.a||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall
+TraceCmdString=
+DebugOptions=
+[File001]
+Location=C:\Users\Wouter\workspace\IOModulinator\obj\device.o
+Folder=Intermediary
+DeviceName=PIC24F16KA302
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)|bin/||$(TMPDIR)|obj/||$(AINDIR)||$(INCDIR)|include;src;..\libbusprot\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|src\main.c|src\device.c|src\connectivity.c|src\timers.c||<obj>||<lib>|C:\Users\Wouter\workspace\libbusprot\bin\libbusprot.a||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall
+TraceCmdString=
+DebugOptions=
+[File002]
+Location=C:\Users\Wouter\workspace\IOModulinator\obj\connectivity.o
+Folder=Intermediary
+DeviceName=PIC24F16KA302
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)|bin/||$(TMPDIR)|obj/||$(AINDIR)||$(INCDIR)|include;src;..\libbusprot\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|src\main.c|src\device.c|src\connectivity.c|src\timers.c||<obj>||<lib>|C:\Users\Wouter\workspace\libbusprot\bin\libbusprot.a||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall
+TraceCmdString=
+DebugOptions=
+[File003]
+Location=C:\Users\Wouter\workspace\IOModulinator\obj\timers.o
+Folder=Intermediary
+DeviceName=PIC24F16KA302
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)|bin/||$(TMPDIR)|obj/||$(AINDIR)||$(INCDIR)|include;src;..\libbusprot\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|src\main.c|src\device.c|src\connectivity.c|src\timers.c||<obj>||<lib>|C:\Users\Wouter\workspace\libbusprot\bin\libbusprot.a||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall
+TraceCmdString=
+DebugOptions=
+[File004]
+Location=C:\Users\Wouter\workspace\IOModulinator\bin\IOModulinator.cof
+Folder=Output
+DeviceName=PIC24F16KA302
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={433C3D55-811D-409D-A6BF-159CF9355B42}
+LanguageToolLocation=D:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-ld.exe
+PPAD=$(BINDIR)|bin/||$(TMPDIR)|obj/||$(AINDIR)||$(INCDIR)|include;src;..\libbusprot\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|src\main.c|src\device.c|src\connectivity.c|src\timers.c||<obj>||<lib>|C:\Users\Wouter\workspace\libbusprot\bin\libbusprot.a||<lkr>||
+SuiteArgsString=
+ToolArgsString=--heap=1024 -Map="$(BINDIR_)$(TARGETBASE).map" --report-mem -o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)"
+TraceCmdString=
+DebugOptions=
+[File005]
+Location=C:\Users\Wouter\workspace\IOModulinator\bin\IOModulinator.hex
+Folder=Output
+DeviceName=PIC24F16KA302
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={433C3D55-811D-409D-A6BF-159CF9355B42}
+LanguageToolLocation=D:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-ld.exe
+PPAD=$(BINDIR)|bin/||$(TMPDIR)|obj/||$(AINDIR)||$(INCDIR)|include;src;..\libbusprot\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|src\main.c|src\device.c|src\connectivity.c|src\timers.c||<obj>||<lib>|C:\Users\Wouter\workspace\libbusprot\bin\libbusprot.a||<lkr>||
+SuiteArgsString=
+ToolArgsString=--heap=1024 -Map="$(BINDIR_)$(TARGETBASE).map" --report-mem -o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)"
+TraceCmdString=
+DebugOptions=
+[TOOL_LOC_STAMPS]
+tool_loc{069BD372-6CA0-40D4-BF2F-5DC806D05083}=D:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-gcc.exe
+tool_loc{433C3D55-811D-409D-A6BF-159CF9355B42}=D:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-ld.exe
